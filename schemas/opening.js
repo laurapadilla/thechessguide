@@ -26,8 +26,14 @@ export default {
       },
     },
     {
-      name: "description",
-      title: "Description",
+      name: "blurb",
+      title: "Blurb",
+      type: "array",
+      of: [{ type: "block" }],
+    },
+    {
+      name: "fullDescription",
+      title: "Full Description",
       type: "array",
       of: [
         { type: "block" },
@@ -38,7 +44,7 @@ export default {
               type: "text",
               name: "alt",
               title: "Alternative text",
-              description: `Some of your visitors cannot see images, 
+              fullDescription: `Some of your visitors cannot see images, 
             be they blind, color-blind, low-sighted; 
             alternative text is of great help for those 
             people that can rely on it to have a good idea of 
