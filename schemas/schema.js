@@ -8,6 +8,9 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import opening from "./opening";
 import resource from "./resource";
 import player from "./player";
+import navigation from "./navigation";
+import navItem from "./navItem";
+import link from "./link";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,5 +23,8 @@ export default createSchema({
     opening,
     resource,
     player,
+    navigation,
+    navItem,
+    link,
   ]),
 });
