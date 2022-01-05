@@ -14,6 +14,11 @@ export default {
       type: "number",
     },
     {
+      name: "moves",
+      title: "Moves",
+      type: "string",
+    },
+    {
       name: "piece",
       title: "Piece",
       type: "string",
@@ -56,11 +61,6 @@ export default {
           ],
         },
       ],
-    },
-    {
-      name: "moves",
-      title: "Moves",
-      type: "string",
     },
     {
       name: "slug",
