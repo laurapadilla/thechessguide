@@ -21,6 +21,5 @@ export default createSchema({
     opening,
     resource,
     player,
-    navigation,
   ]),
 });
